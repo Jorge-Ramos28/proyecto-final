@@ -114,7 +114,7 @@ nav a:hover{
     text-align: left;
     padding-left: 62px;
     padding-top: 62px;
-    padding-bottom: 62px;
+    padding-bottom: 0px;
 }
 
 .info-card h3{
@@ -127,8 +127,8 @@ nav a:hover{
     position: relative;
     row-gap: 50rem;
     display: flex;
-    flex-direction: row
-    heigt: 610px;
+    flex-direction: row;
+    height: 300;
     flex-shrink: 0;
     overflow:auto;
     padding: 62px;
@@ -154,8 +154,12 @@ padding-left: 62px;
 }
 .tex-footer p{
     font-size: 10px;
-    font
+
 }
+
+
+
+
 
 /* pagina shop */
 .container-related-products-shop h2{
@@ -167,36 +171,78 @@ padding-left: 62px;
     padding-bottom: 62px;
 }
 
+.card-list-products-shop {
+    width: 100%;
+    position: relative;
+    row-gap: 50rem;
+    display: flex;
+    flex-direction: row;
+    height: 300;
+    flex-shrink: 0;
+    overflow: auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
 
 
 /* pagina colecciones */
-.colecciones{
-    padding-left: 62px;
-    padding-bottom: 62px;
+
+.card-list-colecciones {
+    width: 100%;
+    position: relative;
+    row-gap: 50rem;
+    display: flex;
+    flex-direction: row;
+    height: 300;
+    flex-shrink: 0;
+    overflow:auto;
+    padding: 30px;
+    justify-content: space-between;
 }
 
 
-.container-related-products-colecciones h2{
+
+.newarrivals-titulo{
     color: #464646;
-    font-size: 2.5rem;
-    text-align: left;
+    font-size: 1rem;
+    text-align: center;
     padding-left: 0px;
     padding-top: 62px;
     padding-bottom: 2px;
 }
-.
+
+
 
 /* pagina new arrival */
-.newarrivals{
-    padding-left: 62px;
-    padding-bottom: 62px;
-    
-}
+
+
 .container-related-products-newarrivals h2{
     color: #464646;
-    font-size: 2.5rem;
-    text-align: left;
-    padding-left: 0px;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    padding-right: 30px;
     padding-top: 62px;
     padding-bottom: 2px;
+
 }
+
+.card-list-products-newarrivals{
+    width: 100%;
+    position: relative;
+    row-gap: 50rem;
+    display: flex;
+    flex-direction: row;
+    height: 300;
+    flex-shrink: 0;
+    overflow:auto;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+
+/* pagina aboutus */
+
+
